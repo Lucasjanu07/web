@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(70, 70, 210);
+    
+}
+
+footer {
+    margin-top: 2%;
+    line-height: 40px;
+    background-color: #3b88ac;
+    text-align: center;
+    font-size: .8em;
+    color: #ffffff;
+    clear: both;
+}
+
+#login {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.card {
+    background-color: #3b88ac;
+    padding: 40px;
+    border-radius: 2px;
+    width: 400px;
+    height:400px;
+    display: inline-block;
+    
+    
+    
+}
+
+.card-header {
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #edb80d;
+}
+
+.card-header::after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.card-content label {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.card-content-area {
+    padding: 10px;
+}
+
+.card-content-area input{
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.card-footer input{
+    width: 200px;
+    text-align: center;
+    background-color: #edb80d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    border: #fff;
+
+}
+.card-footer a{
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+

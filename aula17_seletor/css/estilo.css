@@ -1,0 +1,22 @@
+/*Seletor Universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #a52a2a;
+    font-family: monospace;
+    color: #d4caca;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+p {
+    width: 50%;
+}

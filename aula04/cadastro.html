@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <h1>Estudo de formularios</h1>
+    </header>
+    <hr />
+
+    <section>
+      <h3>Formulario de login</h3>
+      <article>
+        <form>
+          <h3>Cadastro</h3>
+          <label>Nome Completo</label><br />
+          <input type="text" /><br /><br />
+          <label>Endereço</label><br />
+          <input type="text" /><br /><br />
+
+          <label>Estado</label><br />
+          <select name="Estados">
+            <option value="mg">Minas Gerais</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option></select
+          ><br /><br />
+
+          <label>Email</label><br />
+          <input type="email" /><br /><br />
+
+          <label>Estado Civil</label><br />
+          <input type="radio" name="ecivil" id="c" />Casado<br />
+          <input type="radio" name="ecivil" id="s" />Solteiro<br /><br />
+
+          <label>Area de interesse</label><br />
+          <input type="checkbox" name="interesse" id="ch" />Ciências Humanas
+          <input type="checkbox" name="interesse" id="cn" />Ciências da natureza
+          <input type="checkbox" name="interesse" id="ce" />Ciências exatas<br /><br />
+
+          <label>Observação</label><br />
+          <textarea></textarea>
+
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </form>
+      </article>
+    </section>
+  </body>
+</html>

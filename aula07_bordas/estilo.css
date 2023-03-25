@@ -1,0 +1,34 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.borda-solid{
+    background: rgb(241, 209, 160);
+    border: 1px solid green;
+}
+
+.borda-dotted {
+    background: rgb(241, 209, 160);
+    border: 5px dotted green;
+}
+
+.borda-dashed {
+    background: rgb(241, 209, 160);
+    border: 5px dashed green;
+}
+
+.borda-double{
+    background: rgb(241, 209, 160);
+    border: 5px double green;
+}
+
+.borda-groove{
+    background: rgb(241, 209, 160);
+    border: 20px groove green;
+}
+
+.borda-ridge{
+    background: rgb(241, 209, 160);
+    border:20px ridge green;
+}

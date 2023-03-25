@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sofia&display=swap');
+body {
+    background-color: #ecd39b;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+}
+
+#container {
+    margin: 0px auto;
+    background-color: #ffffff;
+    width: 600px;
+}
+
+/*Posicionamento*/
+.fixo {
+    border: 1px solid #ff0000;
+    position: fixed;
+    left: 350px;
+}

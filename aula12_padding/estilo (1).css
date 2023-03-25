@@ -1,0 +1,33 @@
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.espacamento-1{
+    width: 50%;
+    height: 100px;
+    border: 1px solid red;
+    
+    
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;    
+}
+
+.espacamento-2 {
+    width: 50%;
+    height: 100px;
+    border: 1px solid blue;
+
+    padding: 25px 30px 25px 30px;   
+}
+
+.espacamento-3 {
+    width: 50%;
+    height: 100px;
+    border: 1px solid green;
+
+    padding: 25px 30px;
+    
+}

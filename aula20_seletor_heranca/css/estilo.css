@@ -1,0 +1,27 @@
+* {
+    margin: 0px; padding: 0px;
+}
+
+body {
+    /*Nesta formatação, os elementos 
+    não herdam o border do body,
+    pois essa formatação é mais especifica*/
+    color: #725908;
+    font-size: 1.2em;
+
+    padding: 20px;
+    margin-top: 50px;
+    /*Nesta formatação, os elementos 
+    não herdam o border do body,
+    pois essa formatação é mais especifica*/
+    border: 4px solid #027912;
+}
+
+.artigo {
+    font-family: 'roboto';
+    width: 80%;
+    height: 200px;
+    margin: 30px;
+    border: 1px solid #ff0000;
+    padding: 20px;
+}

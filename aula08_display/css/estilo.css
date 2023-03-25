@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sofia&display=swap');
+
+h1 {
+    font-size: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/*Formatação Float*/
+.disp1 {
+    display: inline; /* padrão */
+    width: 1000px; /*Não posso aumentar a largura*/
+    height: 1000px; /*Não posso aumentar a altura*/
+    padding: 5px;
+    background-color: #ff880078;
+    font-size: x-large;
+}
+
+.disp2 {
+    display: inline-block;
+    width: 200px; /*Posso aumentar a largura*/
+    height: 150px; /*Posso aumentar a altura*/
+    padding: 5px;
+    background-color: #0b92344d;
+    font-size: x-large;
+}
+
+.disp3 {
+    display: block; /* 1 em cada linha*/
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    background-color: #a200ff;
+    font-size: x-large;
+}

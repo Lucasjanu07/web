@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: rgb(70, 46, 3);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/*começo da navegação*/
+nav {
+    background-color: #017ba3de;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+/*fim da navegação*/
+
+header {
+    background-color: #017ba3de;
+
+}
+
+main {
+    height: auto;
+    width: 70%;
+    margin: 0px auto;
+    background-color:#ffffff;
+    margin-top: 1px;
+    color: orange ;
+    text-align: center;
+}
+
+
+footer {
+    height: 300px;
+    background-color: #3b88ac;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+footer section {
+    color: rgb(70, 46, 3);
+    
+}
+
+footer a {
+    color: rgb(70, 46, 3);
+    font-size:small;
+}
+
+footer p {
+    color: rgb(70, 46, 3);
+    font-size:medium;
+}
+.teste {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 1%;
+}
+
+figure {
+    display: inline-block;
+    margin: 30px;
+}
+
+.promocao {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 1%;
+    
+}
+
+
+form {
+    margin: 0px auto;
+    width: 50%;
+}
+/*Inicio do formulário*/
+fieldset{
+    margin: 1em 0;
+    padding: 1.5em;
+    border: 1px solid rgb(70, 46, 3);
+    background-color:#ffffff;
+    color: rgb(70, 46, 3);
+}
+legend{
+    font-weight: bold;
+    color: rgb(70, 46, 3);
+}
+
+label{
+    display: inline-block;
+    /*Mostra uma mão sobre o Label*/
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    text-align: left;
+}
+
+input.radio{
+    line-height: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: 10em;
+}
+
+.submit {
+    padding-bottom: 2px;
+    width: 50px;
+    opacity: 0.8;
+    color: rgb(70, 46, 3);
+}
+
+/*Fim do Formulário*/
+
+/*Inicio Tabela*/
+
+table {
+    width: 330px;
+}
+
+td {
+    width: 110px;
+    border: 1px solid #000000;
+    padding: 4%;
+    color: #000000;
+   
+}
+
+th {
+    text-align: center;
+    height: 50px;
+    background: rgb(190, 125, 3);
+    color: black;
+    font-size: 1em;
+}
+.titulo {
+    color:rgb(190, 125, 3); 
+    text-align: center;
+}
+
+.desconto {
+    padding: 3%;
+}
+
+#banner {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/paw-prints-g216b70b38_1280.png);
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+}

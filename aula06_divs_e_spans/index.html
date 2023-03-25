@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spans e outras tags</title>
+  </head>
+  <body>
+    <header>
+      <h1>Spans e outras tags</h1>
+      <hr />
+    </header>
+    <section>
+      <article>
+        <!--Tags como parágrafo, divs e article etc, quebram a linha-->
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga quam<br />
+        laborum mollitia officia eius veritatis omnis, eveniet expedita
+        dolores<br />
+        alias pariatur accusantium quae temporibus quibusdam error,<br />
+        exercitationem, animi sunt in.<br />
+      </article>
+      <hr />
+      <article>
+        <p>
+          <!--Tags como span, mantém o texto corrido. Não quebra a linha-->
+          <!--A tag <br> está quebrando as linhas abaixo propositalmente-->
+            <span class="texto-verde">Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit.<br> Cuarchitecto iure 
+            laborum reiciendis cumque</span> fuga odio nemo tempora<br>
+            <span class="texto-azul">ipsa, quia quos delectus excepturi sequi dolore 
+            harum molestiae earum? Inventore.</span><br>
+        </p>
+      </article>
+      <hr>
+    </section>
+  </body>
+</html>

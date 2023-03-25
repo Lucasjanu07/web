@@ -1,0 +1,41 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+font-family: 'Sofia', cursive;
+}
+h3{
+    font-family: 'Sofia', cursive;
+}
+main{
+    background-color:beige;
+    width: 1000px;
+    margin: 0px auto;
+    padding: 30px;
+
+}
+
+.imagens{
+    width: 200px;
+    height: 300px;
+}
+
+
+.capa {
+    background-size: cover;
+    width: 1920px;
+    height: 300px;
+}
+nav{
+    text-align: center;
+}

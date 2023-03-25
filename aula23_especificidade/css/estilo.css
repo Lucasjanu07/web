@@ -1,0 +1,36 @@
+* {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    color: #a52a2a;
+}
+
+h2 {
+    font-family: 'roboto';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 1.3em;
+    color: #a52a2a;
+
+}
+
+.texto {
+    color: #800080;
+}
+
+
+#paragrafo {
+    color: #008000;
+}
+
+/*Neste exemplo, a ordem das regras de estilo é
+diferente do exemplo anterior. A regra #paragrafo
+aparece por ultimo na folha de estilo, então ela 
+tem precedência sobre as outras duas regras.
+Portanto, a cor do texto será verde.*/
