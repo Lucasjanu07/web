@@ -1,0 +1,8 @@
+main {
+    width: 80%;
+    height: 50vh;
+    margin: 0px auto;
+    background-color: #ffebcd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold !important;
+}
