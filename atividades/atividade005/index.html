@@ -1,87 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Meu currículo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Estilo personalizado -->
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    img {
+      width: 200px;
+      margin-top: 20px;
+    }
 
-  <title>Curriculo</title>
+    footer {
+      background-color: black;
+      color: white;
+      height: 200px;
+      padding: 2%;
+    }
 
-  <!--CSS-->
-  <link rel="stylesheet" href="css/estilo.css" type="text/css">
-
-  <!--Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
-  <!--Bootstrap (CDN)-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    footer img {
+      width: 20px;
+      margin-top: 2px;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="perfil">
+          <img src="img/perfilucas.jpg" class="rou" alt="Foto de perfil">
+          <h1>Lucas Januario</h1>
+          <strong>Técnico em Informatica</strong>
+        
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="resumo">
+          <h2>Sobre mim:</h2>
+          <p class="px-5">Estou cursando Técnico em Informática, sou uma pessoa ambiciosa, dedicada, gosto de desafios,</p>
+          <p class="px-5">tenho boa comunicação, gosto do trabalho em equipe, estou sempre disposto a ajudar meus companheiros, me entrego</p>
+          <p class="px-5">totalmente em busca dos resultados. Minhas experiências me prepararam para encarar novos desafios, com isso, me</p>
+          <p class="px-5">sinto pronto, para chegar e assumir uma nova missão, entregando muita qualidade e responsabilidade, para</p>
+          <p class="px-5">desenvolvimento das atividades.</p>
+        </div>
+        <div class="experiencia">
+          <h2>Experiência profissional</h2>
+          <ul>
+            <li>
+              <h3>Auxiliar Técnico</h3>
+              <p><strong>Empresa:</strong> Toner Mais</p>
+              <p><strong>Data:</strong> ABR/2014 - MAI/2016</p>
+              <p><strong>Descrição:</strong> Realizava recargas e remanufatura de cartuchos a toner<br>
+                testes de funcionalidades e qualidades, reparo de peças danificadas, entregas<br>
+                organização por marcas, vendas de cartuchos de impressoras jatos de tintas Epson e outros.</p>
+            </li>
+            <li>
+              <h3>Atendente Telemarketing</h3>
+              <p><strong>Empresa:</strong> Almaviva do Brasil S/A</p>
+              <p><strong>Data:</strong> FEV/2018 - DEZ/2020</p>
+              <p><strong>Descrição:</strong> Atendimento a carteira de credito, realizando negociações de divida<br>
+                atualizações cadastrais, envio de fatura, segunda via de cartão e/ou senha<br>
+                bloqueios por perda ou roubo e outros.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="formacao">
+          <h2>Formação acadêmica</h2>
+          <ul>
+            <li>
+              <h3>Ensino Médio Completo</h3>
+              <p><strong>Instituição:</strong> Escola Publica Estadual</p>
+              <p><strong>Data:</strong> FEV/2015 - DEZ/2017</p>
+            </li>
+            <li>
+              <h3>Técnico em Informática</h3>
+              <p><strong>Instituição:</strong> Serviço Nacional de Aprendizagem Comercial -SENAC</p>
+              <p><strong>Data:</strong> OUT/2021 - SET/2023</p>
+            </li>
+            <li>
+              <h3>Capacitação em Call Center</h3>
+              <p><strong>Instituição:</strong> Instituto Crescer</p>
+              <p><strong>Data:</strong> OUT/2021 - SET/2023</p>
+            </li>
+          </ul>
+        </div>
+        <div class="habilidades">
+          <h2>Habilidades</h2>
+          <ul>
+            <li>Python</li>
+            <li>Assistência e Suporte em Manuteção de Computador</li>
+            <li>Atendente de Telemarketing Recptivo</li>
+            <li>Suporte em Instalação de Redes de Computadores</li>
+            <li>Auxiliar Tecnico</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <header class="mt-2 mx-2">
-    <h1>Lucas Januario</h1>
-    <h5 class="fst-italic">Técnico em Informatica</h5>
-    <p class="fw-normal">Data de Nascimento: 07/04/1998</p>
-    <p>Telefone de contato: (32) 9-9999-9999</p>
-    <p>Email: lucasariojanu@gmail.com</p>
- <figure>
-    <img class="float-end" src="img/perfil.png" alt="">
- </figure>
-    
-  </header>
-  <hr>
-  <section class="mt-2 mx-2">
-    <h4 class="text-center">Sobre mim:</h4>
-    <p class="px-5">Tenho 24 anos, estou cursando Técnico em Informática, sou uma pessoa ambiciosa, dedicada, gosto de desafios,</p>
-    <p class="px-5">tenho boa comunicação, gosto do trabalho em equipe, estou sempre disposto a ajudar meus companheiros, me entrego</p>
-    <p class="px-5">totalmente em busca dos resultados. Minhas experiências me prepararam para encarar novos desafios, com isso, me</p>
-    <p class="px-5">sinto pronto, para chegar e assumir uma nova missão, entregando muita qualidade e responsabilidade, para</p>
-    <p class="px-5">desenvolvimento das atividades.</p>
-  </section>
-  <hr>
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Entre em contato</h4>
+          <ul>
+            <li><i class="fa fa-envelope"></i> lucasariojanu@gmail.com</li>
+            <li><i class="fa fa-phone"></i> (32) 9-9133-3976</li>
+            <li><i class="fa fa-map-marker"></i> Juiz de Fora, Minas Gerais</li>
+          </ul>
+        
+        </div>
+        <div>
+          <h4>Redes sociais</h4>
+          <figure>
+            <a href=""><img src="img/facebook.png"  alt=""></a>
+            <a href=""><img src="img/instagram.png" alt=""></a>
+            <a href=""><img src="img/linkedin.png" alt=""></a>
+            <a href=""><img src="img/twitter.png" alt=""></a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-  <section class="mt-2 mx-2">
-    <h4 class="text-center">Experiências:</h4>
-    <article class="px-5">
-      <h6 class="fst-italic">Auxiliar Técnico:</h6>
-      <p>2014-2016</p>
-        Recarga e remanufatura d cartuchos, toner. e serviços em geral
-    </article>
-
-    <article class="px-5">
-      <h6 class="fst-italic">Auxiliar de Produção:</h6>
-      <P>2016-2017</P>
-      Organização, preparo e produção de soro fisiológico
-    </article>
-    
-    <article class="px-5">
-      <h6 class="fst-italic">Atendente de Telemarketing:</h6>
-      <p>2018-2020</p>
-      Experiência em atedimentos a carteira de credito, realizando negociações de dividas, vendas, 
-      <p>atualizações cadastrais </p> 
-
-    </article>
-  </section>
-
-
-
-  
-
-
-  <!--Biblioteca JS e POPPER ficam no final do seu arquivo HTML-->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
-
+   <!--Biblioteca JS e POPPER ficam no final do seu arquivo HTML-->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+   integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+   crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+   integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+   crossorigin="anonymous"></script>
 </body>
+
 
 </html>
