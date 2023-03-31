@@ -1,0 +1,9 @@
+.conteudo {
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid rgb(172, 168, 168);
+}
+
+.mostrar-container {
+    border: 1px solid rgb(117, 117, 211);
+}
