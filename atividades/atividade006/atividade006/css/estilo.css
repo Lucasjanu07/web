@@ -1,0 +1,23 @@
+.conteudo {
+    text-align: center;
+}
+
+.linha {
+    border: 1px solid rgb(117, 117, 211);
+}
+
+img {
+
+    /*Deixando a minha animação mais suave*/
+    transition: all 0.4s;
+  }
+  
+  /*Quando passar o meu mouse emcima da imagem ela irá ficar um pouco maior*/
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+
+
+
+
